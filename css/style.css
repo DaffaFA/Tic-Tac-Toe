@@ -1,0 +1,30 @@
+.game-board {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.clicked {
+    pointer-events: none;
+    font-size: 48pt;
+    padding: 10px 17px;
+}
+
+
+.box {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0 !important;
+}
+
+.unclicked {
+    padding: 40px;
+}
+
+
+#user {
+    text-align: center;
+    font-size: 28pt;
+}
