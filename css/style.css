@@ -1,30 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .game-board {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
 }
 
+.justify-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-row {
+    height: 100px;
+    margin: 0 auto;
+}
 
 .clicked {
     pointer-events: none;
     font-size: 48pt;
-    padding: 10px 17px;
+    text-align: center;
+    padding: 10px;
 }
 
 
 .box {
-    display: inline-block;
+    float: left;
     border: 1px solid black;
-    margin: 0 !important;
+    height: 100%;
+    width: 100px;
 }
 
 .unclicked {
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 
 #user {
     text-align: center;
     font-size: 28pt;
+}
+
+header {
+    margin: 0 0 80px 0;   
 }
